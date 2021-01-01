@@ -1,0 +1,57 @@
+import {
+  faEye,
+  faScroll,
+  faCodeBranch,
+  faLightbulb,
+  faGlobeAsia,
+  faBook,
+} from '@fortawesome/free-solid-svg-icons';
+export const cardsInfo = [
+  {
+    page: 'landing',
+    cardInfo: [
+      {
+        icon: faScroll,
+        title: 'Our Story',
+        description:
+          'Thinking outside the box and relying on partnership and collaboration to exceed customer expectations is an everyday occurrence at PrismaSofts. This isn’t surprising, when you consider it was this mindset that drove the creation of the software company back in 2020. It’s a story of innovation being born out of necessity and necessity is the mother of all inventions.',
+      },
+      {
+        icon: faEye,
+        title: 'Our Vision',
+        description:
+          'Provide franchisors and startups with quality technology and exceptional customer service so their franchisees can achieve excellence. Our vision is to bring about a rapid digital transformation in the public as well as well private sector, home as well as abroad. Mutual development and upliftment of humankind is at the forefront of our vision.',
+      },
+      {
+        icon: faCodeBranch,
+        title: 'Technologies',
+        description:
+          'PrismaSoft Pvt. Ltd. has a long-standing history of leveraging the existing resources to improve operational analysis, efficiency, logistics as well as insights. The key to unlocking end-to-end supply chain visibility begins with the connectivity provided by IoT technology and its ability to transfer massive volumes of data across multiple networks in a fraction of time.',
+      },
+    ],
+  },
+  {
+    page: 'whyus',
+    cardInfo: [
+      {
+        icon: faBook,
+        title: 'Insightful',
+        description:
+          "We can deduce what is actually happening, behind the words, behind the actions. We can see exactly what is going on, how and why. We pick up on small details in what client say and more importantly about what they don't say. We build a picture from questions that people ask. We understand the intentions behind everything",
+      },
+      {
+        icon: faLightbulb,
+        title: 'Innovative',
+        description:
+          'We have an inquisitive and outward-looking nature, searching for new innovation to understand alternative sources of good practice and implement creative working methods. We are committed to reflecting on how we go about our roles, being flexible in our approach as required to ensure the best outcomes.',
+      },
+      {
+        icon: faGlobeAsia,
+        title: 'International',
+        description:
+          'We are international startup based on Australia, India & Nepal. We have integrated management and international practice of project management. We feel enormous pride in our international collaborations across the world in technology exchange. We understand the added responsibility of being international venture.',
+      },
+    ],
+  },
+];
+
